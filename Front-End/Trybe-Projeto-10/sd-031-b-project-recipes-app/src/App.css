@@ -1,0 +1,126 @@
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.divRecommendation {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 400px;
+}
+
+.cardsRecommendation {
+  border: 1px solid;
+  border-radius: 5px;
+  display: inline-block;
+  height: 200px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.cardImg {
+  border-radius: 5px 5px 0 0;
+  height: 134.85px;
+  left: 12px;
+  top: 898px;
+  width: 163.35px;
+}
+
+.screen {
+  margin-bottom: 45px;
+  max-width: 360px;
+}
+
+.fixed-button {
+  bottom: 0;
+  height: 40px;
+  left: 12px;
+  position: fixed;
+  right: 20px;
+  width: 336px;
+}
+
+/* Reset de estilos padrão do botão */
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Estilos específicos para a classe 'estilizado' */
+.estilizado {
+  background-color: #0c3974;
+  border: 2px solid #4562a0;
+  border-radius: 5px; /* Cantos arredondados */
+  color: white; /* Cor do texto branco */
+}
+
+/* Efeito hover para destacar quando o mouse passa sobre o botão */
+.estilizado:hover {
+  background-color: #45a049; /* Altera a cor de fundo no hover */
+}

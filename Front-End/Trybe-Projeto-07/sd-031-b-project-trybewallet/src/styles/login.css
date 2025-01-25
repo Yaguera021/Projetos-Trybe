@@ -1,0 +1,50 @@
+.login-container {
+  align-items: center;
+  background-image: url('/src/images/fotoFundo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-box {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 356px;
+  justify-content: center;
+  width: 525px;
+}
+
+.logo-wallet {
+  background-image: url'logoTrybeWallet.png';
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 140px;
+  width: 330px;
+}
+
+input {
+  border: 1px solid #003be5;
+  border-radius: 5px;
+  color: #003be5;
+  height: 40px;
+}
+
+button {
+  background-color: #003be5;
+  border: 1px solid #003be5;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+}

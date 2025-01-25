@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100vh;
+}
+
+.left {
+  background-color: darkslategrey;
+  grid-column: 1 / span 6;
+  height: 100%;
+}
+
+.right {
+  background-color: rgb(9, 66, 104);
+  grid-column: 7 / span 6;
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 600px;
+  padding: 16px;
+}
+
+.left .wrapper {
+  margin-left: auto;
+}
+
+.right .wrapper {
+  margin-right: auto;
+}
+
+
+@media ( max-width : 640px ) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .left, .right {
+    grid-column: 1 / span 1;
+    height: auto;
+  }
+
+  .left .wrapper, .right .wrapper {
+    margin: 0 auto;
+  }
+}
