@@ -1,0 +1,6 @@
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/entity/Person.java
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/exception/PersonNotFoundException.java
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/AgrixApplication.java
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/security/Role.java
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/repository/PersonRepository.java
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/service/PersonService.java

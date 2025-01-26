@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: Req 04-07
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 5.475 s <<< FAILURE! - in Req 04-07
+com.betrybe.agrix.evaluation.CropManagementTest.testGetAllCrops  Time elapsed: 0.609 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.betrybe.agrix.evaluation.CropManagementTest.performCropCreation(CropManagementTest.java:260)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testGetAllCrops(CropManagementTest.java:180)
+
+com.betrybe.agrix.evaluation.CropManagementTest.testCropCreation  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.betrybe.agrix.evaluation.CropManagementTest.performCropCreation(CropManagementTest.java:260)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testCropCreationSuccess(CropManagementTest.java:68)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testCropCreation(CropManagementTest.java:60)
+
+com.betrybe.agrix.evaluation.CropManagementTest.testGetCrop  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.betrybe.agrix.evaluation.CropManagementTest.performCropCreation(CropManagementTest.java:260)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testGetCropSuccess(CropManagementTest.java:211)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testGetCrop(CropManagementTest.java:205)
+
+com.betrybe.agrix.evaluation.CropManagementTest.testGetFarmCrops  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.betrybe.agrix.evaluation.CropManagementTest.testGetFarmCropsEmpty(CropManagementTest.java:110)
+	at com.betrybe.agrix.evaluation.CropManagementTest.testGetFarmCrops(CropManagementTest.java:98)
+

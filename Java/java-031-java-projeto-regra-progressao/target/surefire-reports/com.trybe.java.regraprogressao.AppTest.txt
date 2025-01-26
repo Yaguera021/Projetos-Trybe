@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.trybe.java.regraprogressao.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.537 s <<< FAILURE! - in null
+com.trybe.java.regraprogressao.AppTest.testInsereNotas  Time elapsed: 0.002 s  <<< ERROR!
+java.util.InputMismatchException
+	at com.trybe.java.regraprogressao.AppTest.testInsereNotas(AppTest.java:144)
+
+com.trybe.java.regraprogressao.AppTest.testEmiteResultadoReprovado  Time elapsed: 0.002 s  <<< ERROR!
+java.util.InputMismatchException
+	at com.trybe.java.regraprogressao.AppTest.testEmiteResultadoReprovado(AppTest.java:261)
+
+com.trybe.java.regraprogressao.AppTest.testSomaPesos  Time elapsed: 0.001 s  <<< ERROR!
+java.util.InputMismatchException
+	at com.trybe.java.regraprogressao.AppTest.testSomaPesos(AppTest.java:186)
+
+com.trybe.java.regraprogressao.AppTest.testEmiteResultadoAprovado  Time elapsed: 0.001 s  <<< ERROR!
+java.util.InputMismatchException
+	at com.trybe.java.regraprogressao.AppTest.testEmiteResultadoAprovado(AppTest.java:222)
+

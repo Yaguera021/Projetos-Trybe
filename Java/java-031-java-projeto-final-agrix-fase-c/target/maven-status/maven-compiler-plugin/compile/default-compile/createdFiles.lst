@@ -1,0 +1,6 @@
+com/betrybe/agrix/ebytr/staff/entity/Person.class
+com/betrybe/agrix/ebytr/staff/exception/PersonNotFoundException.class
+com/betrybe/agrix/AgrixApplication.class
+com/betrybe/agrix/ebytr/staff/security/Role.class
+com/betrybe/agrix/ebytr/staff/service/PersonService.class
+com/betrybe/agrix/ebytr/staff/repository/PersonRepository.class

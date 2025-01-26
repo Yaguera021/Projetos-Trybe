@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Req 08-09
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.28 s <<< FAILURE! - in Req 08-09
+com.betrybe.museumfinder.evaluation.CoverageValidationTest.testMuseumId  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Endpoint GET /museums/{id} não encontrado!
+	at com.betrybe.museumfinder.evaluation.CoverageValidationTest.checkControllerImplemented(CoverageValidationTest.java:82)
+	at com.betrybe.museumfinder.evaluation.CoverageValidationTest.testMuseumId(CoverageValidationTest.java:42)
+
+com.betrybe.museumfinder.evaluation.CoverageValidationTest.testCollectionTypeCoverage  Time elapsed: 7.264 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Erro ao executar teste de cobertura, verifique se os outros testes estão passando, incluindo o linter! Arquivo de log: target-coverage-req-08.log
+	at com.betrybe.museumfinder.evaluation.CoverageValidationTest.testCollectionTypeCoverage(CoverageValidationTest.java:34)
+

@@ -1,0 +1,22 @@
+#Mon Feb 12 12:54:45 BRT 2024
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/service/MuseumService.java=1707307596946
+configuration*?=316951F39B4310816F2A0B4BB3EFB764F879F6FA
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/dto/MuseumDto.java=1707267608078
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/service/MuseumServiceInterface.java=1707307293413
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/database/MuseumFakeDatabase.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/dto/MuseumCreationDto.java=1707267608082
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/model/Museum.java=1707267561709
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/util/CoordinateUtil.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/dto/CollectionTypeCount.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/MuseumFinderApplication.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/model/Coordinate.java=1707270517922
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/exception/MuseumNotFoundException.java=1707311612704
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/service/CollectionTypeService.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/util/MuseumLoader.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/controller/CollectionTypeController.java=1707264806140
+module-resource*?\:checkstyle-xpath-suppressions.xml=E577F2575A35F4164E7927F439508BF4755A0225
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/controller/MuseumController.java=1707312564993
+module-resource*?\:checkstyle-suppressions.xml=F37E00D87BA277A4684D634FE088ADFB7152F052
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/util/ModelDtoConverter.java=1707264806140
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/exception/InvalidCoordinateException.java=1707311661849
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/main/java/com/betrybe/museumfinder/advice/GeneralControllerAdvice.java=1707312668788

@@ -1,0 +1,17 @@
+#Sat Feb 24 19:06:02 BRT 2024
+configuration*?=CD2B8FB029F8FCA86127348433C7557BB9870AEE
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/controllers/FarmController.java=1708811652124
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/controllers/dtos/ResponseDto.java=1708715680050
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/models/repositories/CropRepository.java=1708811377772
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/test/resources/application-test.properties=1708541932237
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/models/repositories/FarmRepository.java=1708717429176
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/controllers/dtos/CropDto.java=1708810158392
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/controllers/CropController.java=1708812359633
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/controllers/dtos/FarmDto.java=1708715759284
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/services/CropService.java=1708812301930
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/AgrixApplication.java=1708541932237
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/services/FarmService.java=1708716911916
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/models/entities/Farm.java=1708715863547
+module-resource*?\:checkstyle-xpath-suppressions.xml=A025B15F800BBCF1B18A1B3B1A0879B102559047
+module-resource*?\:checkstyle-suppressions.xml=C1278AD5C7F66B8EF1FDA445707B68FACA3654D8
+/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-final-agrix-fase-a/src/main/java/com/betrybe/agrix/models/entities/Crop.java=1708807937935

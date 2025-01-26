@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Req 01-03
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.729 s <<< FAILURE! - in Req 01-03
+com.betrybe.agrix.evaluation.FarmManagementTest.testGetFarm  Time elapsed: 0.032 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{size=3.49, name=My Cabbages!, id=4}> but was: <{data={id=4, name=My Cabbages!, size=3.49}, message=Fazendas}>
+	at com.betrybe.agrix.evaluation.FarmManagementTest.testGetFarmSuccess(FarmManagementTest.java:135)
+	at com.betrybe.agrix.evaluation.FarmManagementTest.testGetFarm(FarmManagementTest.java:110)
+

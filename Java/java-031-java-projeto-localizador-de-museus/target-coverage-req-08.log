@@ -1,0 +1,222 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.betrybe:museum-finder >----------------------
+[INFO] Building museum-finder 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ museum-finder ---
+[INFO] Deleting /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.3.0:check (checkstyle) @ museum-finder ---
+[INFO] Iniciando a auditoria...
+Auditoria completa.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.10:prepare-agent (default-prepare-agent) @ museum-finder ---
+[INFO] argLine set to -javaagent:/home/yago/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08/jacoco.exec,includes=com/betrybe/museumfinder/controller/CollectionTypeController*:com/betrybe/museumfinder/service/CollectionTypeService*,excludes=com/betrybe/museumfinder/util/**
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ museum-finder ---
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ museum-finder ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ museum-finder ---
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ museum-finder ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08/test-classes
+[INFO] /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/test/java/com/betrybe/museumfinder/evaluation/utils/CodeCoverageRunner.java: /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/test/java/com/betrybe/museumfinder/evaluation/utils/CodeCoverageRunner.java uses unchecked or unsafe operations.
+[INFO] /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/src/test/java/com/betrybe/museumfinder/evaluation/utils/CodeCoverageRunner.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ museum-finder ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running Req 05-06
+12:54:47.638 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [ControllerLayerTest]: using SpringBootContextLoader
+12:54:47.641 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.betrybe.museumfinder.evaluation.ControllerLayerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:54:47.641 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.betrybe.museumfinder.evaluation.ControllerLayerTest]: ControllerLayerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:54:47.662 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [ControllerLayerTest]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+12:54:47.704 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08/classes/com/betrybe/museumfinder/MuseumFinderApplication.class]
+12:54:47.705 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.evaluation.ControllerLayerTest
+12:54:47.754 [main] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:54:47.755 [main] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:54:47.757 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [ControllerLayerTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+12:54:47.758 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [ControllerLayerTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2024-02-12T12:54:47.917-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ControllerLayerTest     : Starting ControllerLayerTest using Java 17.0.9 with PID 23820 (started by yago in /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus)
+2024-02-12T12:54:47.918-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ControllerLayerTest     : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T12:54:49.136-03:00  INFO 23820 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-12T12:54:49.137-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-12T12:54:49.143-03:00  INFO 23820 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-12T12:54:49.150-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2024-02-12T12:54:49.183-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ControllerLayerTest     : Started ControllerLayerTest in 1.404 seconds (process running for 2.044)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.787 s - in Req 05-06
+[INFO] Running Req 01
+2024-02-12T12:54:49.345-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.evaluation.ModelAndDtoTest]: ModelAndDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:49.347-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.evaluation.ModelAndDtoTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2024-02-12T12:54:49.363-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ModelAndDtoTest         : Starting ModelAndDtoTest using Java 17.0.9 with PID 23820 (started by yago in /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus)
+2024-02-12T12:54:49.363-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ModelAndDtoTest         : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T12:54:49.610-03:00  INFO 23820 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-12T12:54:49.619-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ModelAndDtoTest         : Started ModelAndDtoTest in 0.27 seconds (process running for 2.48)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 s - in Req 01
+[INFO] Running Req 02
+2024-02-12T12:54:49.628-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.evaluation.ActuatorTest]: ActuatorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:49.630-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.evaluation.ActuatorTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2024-02-12T12:54:49.643-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ActuatorTest            : Starting ActuatorTest using Java 17.0.9 with PID 23820 (started by yago in /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus)
+2024-02-12T12:54:49.644-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ActuatorTest            : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T12:54:49.884-03:00  INFO 23820 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-12T12:54:49.884-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-12T12:54:49.887-03:00  INFO 23820 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-12T12:54:49.889-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2024-02-12T12:54:49.901-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ActuatorTest            : Started ActuatorTest in 0.268 seconds (process running for 2.762)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 s - in Req 02
+[INFO] Running Req 07
+2024-02-12T12:54:49.927-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.evaluation.ControllerErrorTest]: ControllerErrorTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:49.929-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.evaluation.ControllerErrorTest
+2024-02-12T12:54:49.935-03:00  INFO 23820 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-12T12:54:49.935-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-12T12:54:49.935-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in Req 07
+[INFO] Running Req 03-04
+2024-02-12T12:54:49.961-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.evaluation.ServiceLayerTest]: ServiceLayerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:49.962-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.evaluation.ServiceLayerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2024-02-12T12:54:49.974-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ServiceLayerTest        : Starting ServiceLayerTest using Java 17.0.9 with PID 23820 (started by yago in /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus)
+2024-02-12T12:54:49.975-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ServiceLayerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T12:54:50.187-03:00  INFO 23820 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-12T12:54:50.199-03:00  INFO 23820 --- [           main] c.b.m.evaluation.ServiceLayerTest        : Started ServiceLayerTest in 0.234 seconds (process running for 3.06)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in Req 03-04
+[INFO] Running null
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in null
+[INFO] Running CollectionTypeService Tests
+2024-02-12T12:54:50.233-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.solution.CollectionTypeServiceTest]: CollectionTypeServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:50.237-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.solution.CollectionTypeServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in CollectionTypeService Tests
+[INFO] Running null
+2024-02-12T12:54:50.246-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.solution.CollectionTypeControllerTest]: CollectionTypeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:50.247-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.solution.CollectionTypeControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in null
+[INFO] Running null
+2024-02-12T12:54:50.272-03:00  INFO 23820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest]: MuseumControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12T12:54:50.275-03:00  INFO 23820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.betrybe.museumfinder.MuseumFinderApplication for test class com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2024-02-12T12:54:50.286-03:00  INFO 23820 --- [           main] c.b.m.s.MuseumControllerIntegrationTest  : Starting MuseumControllerIntegrationTest using Java 17.0.9 with PID 23820 (started by yago in /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus)
+2024-02-12T12:54:50.286-03:00  INFO 23820 --- [           main] c.b.m.s.MuseumControllerIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2024-02-12T12:54:50.367-03:00  INFO 23820 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-12T12:54:50.368-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-12T12:54:50.368-03:00  INFO 23820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-02-12T12:54:50.371-03:00  INFO 23820 --- [           main] c.b.m.s.MuseumControllerIntegrationTest  : Started MuseumControllerIntegrationTest in 0.093 seconds (process running for 3.232)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /museums/closest
+       Parameters = {lat=[123.456], lng=[456.789], max_dist_km=[10.0]}
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.betrybe.museumfinder.controller.MuseumController
+           Method = com.betrybe.museumfinder.controller.MuseumController#getClosestMuseum(Double, Double, Double)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":null,"name":null,"description":null,"address":null,"collectionType":null,"subject":null,"url":null,"coordinate":null,"legacyId":null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.114 s <<< FAILURE! - in null
+[ERROR] com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest.testGetClosestMuseum  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.name"
+	at com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest.testGetClosestMuseum(MuseumControllerIntegrationTest.java:44)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   MuseumControllerIntegrationTest.testGetClosestMuseum:44 No value at JSON path "$.name"
+[INFO] 
+[ERROR] Tests run: 13, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.587 s
+[INFO] Finished at: 2024-02-12T12:54:50-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project museum-finder: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/yago/Trybe/Trybe-Projetos/Java/java-031-java-projeto-localizador-de-museus/target-coverage-req-08/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

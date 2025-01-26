@@ -1,0 +1,15 @@
+com/betrybe/museumfinder/solution/CollectionTypeServiceTest.class
+com/betrybe/museumfinder/evaluation/ControllerErrorTest.class
+com/betrybe/museumfinder/solution/MuseumServiceTest.class
+com/betrybe/museumfinder/evaluation/ControllerLayerTest.class
+com/betrybe/museumfinder/evaluation/utils/TestHelpers.class
+com/betrybe/museumfinder/evaluation/DockerfileTest$DockerCommand.class
+com/betrybe/museumfinder/evaluation/utils/XmlParser.class
+com/betrybe/museumfinder/solution/MuseumControllerIntegrationTest.class
+com/betrybe/museumfinder/evaluation/CoverageValidationTest.class
+com/betrybe/museumfinder/solution/CollectionTypeControllerTest.class
+com/betrybe/museumfinder/evaluation/DockerfileTest.class
+com/betrybe/museumfinder/evaluation/ActuatorTest.class
+com/betrybe/museumfinder/evaluation/ServiceLayerTest.class
+com/betrybe/museumfinder/evaluation/ModelAndDtoTest.class
+com/betrybe/museumfinder/evaluation/utils/CodeCoverageRunner.class

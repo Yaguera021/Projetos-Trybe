@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.114 s <<< FAILURE! - in null
+com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest.testGetClosestMuseum  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.name"
+	at com.betrybe.museumfinder.solution.MuseumControllerIntegrationTest.testGetClosestMuseum(MuseumControllerIntegrationTest.java:44)
+
